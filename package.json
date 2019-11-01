@@ -1,0 +1,25 @@
+{
+  "name": "tbone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitterulf/tbone.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bitterulf/tbone/issues"
+  },
+  "homepage": "https://github.com/bitterulf/tbone#readme",
+  "dependencies": {
+    "beefy": "^2.1.8",
+    "brfs": "^2.0.2",
+    "tsify": "^4.0.1",
+    "typescript": "^3.6.4"
+  }
+}
