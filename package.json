@@ -19,6 +19,7 @@
   "dependencies": {
     "beefy": "^2.1.8",
     "brfs": "^2.0.2",
+    "browserify": "^16.5.0",
     "tsify": "^4.0.1",
     "typescript": "^3.6.4"
   }

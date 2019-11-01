@@ -9,9 +9,9 @@ http.createServer(beefy({
   , quiet: false
   , bundlerFlags: ['-t', 'brfs', '-p', 'tsify']
   , unhandled: on404
-})).listen(8080)
+})).listen(7070)
 
-function on404(req, resp) {
+function on404(req, whatever, resp) {
   resp.writeHead(404, {})
   resp.end('sorry folks!')
 }
